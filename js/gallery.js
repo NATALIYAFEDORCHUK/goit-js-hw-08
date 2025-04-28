@@ -72,7 +72,7 @@ container.addEventListener('click', openModal);
 
 function imageTemplate(image) {
     return `<li class="gallery-item">
-  <a class="gallery-link" href="large-image.jpg">
+  <a class="gallery-link" href="${image.original}">
     <img
       class="gallery-image"
       src="${image.preview}"
